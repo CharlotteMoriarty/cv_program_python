@@ -4,6 +4,7 @@ import file_handler
 import display
 # plik raporty jeszcze
 
+
 def menu():
     cv_list = []
     loop_handling = True
@@ -54,7 +55,38 @@ def menu():
 #print(menu())
 
 def search_menu(cv_list):
-    pass
+    loop_handling = True
+    search_choice = input("""
+                1: Wyszukaj po kategorii
+                2: Wyszukaj po roku rozpoczęcia
+                3: Wyszukaj po nazwie stanowiska
+                4: Wyszukaj po nazwie firmy
+                5: Wyjście  
+    """)
+    if search_choice == "1":
+        os.system("clear")
+        display.logo_print()
+        genre_search(cv_list)
+
+
+def genre_search(input_cv):
+    loop_handling = True
+    while loop_handling:
+        ask_user_about_genre = input("Wpisz interesującą Cię kategorię: ")
+        genres = []
+        for cv_data in input_cv:
+            genres.append(cv_data[3])
+        if ask_user_about_genre in genres:
+            display.display_table_header()
+            for cv in input_cv:
+                if ask_user_about_genre in cv[3]:
+                    display.display_cv_to_print(cv)
+            loop_handling = False
+        else:
+            print("Brak kategorii! ")
+
+
+
 
 def cv_raport():
     pass

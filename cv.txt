@@ -6,3 +6,4 @@ Managing Director Key account manager, K&K Solution, 2014, doświadczenie
 Analityk, Zenitax, 2016, doświadczenie
 Administrator IT, MK Trade, 2018, doświadczenie
 Python developer, Codecool, 2018, doświadczenie
+abc, test, 2000, test
