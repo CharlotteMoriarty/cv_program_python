@@ -110,5 +110,3 @@ def year_search(input_cv):
             print("Wpisz interesujący Cię rok (yyyy-yyyy):  ")
 
 
-def cv_raport():
-    pass
