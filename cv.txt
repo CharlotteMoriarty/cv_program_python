@@ -1,9 +1,9 @@
-Sklep internetowy,Własna działalność, 2007,doświadczenie
-Help Desk, D&L Technology, 2010, doświadczenie
-Administrator ds bezpieczeństwa informacji, D&L Technology, 2011, doświadczenie
-Specjalista ds sprzedaży, Robobat Polska Sp zo.o., 2012, doświadczenie
-Managing Director Key account manager, K&K Solution, 2014, doświadczenie
-Analityk, Zenitax, 2016, doświadczenie
-Administrator IT, MK Trade, 2018, doświadczenie
-Python developer, Codecool, 2018, doświadczenie
-abc, test, 2000, test
+Sklep internetowy,Własna działalność, 2007-2009,doświadczenie
+Help Desk, D&L Technology, 2010-2012, doświadczenie
+Administrator ds bezpieczeństwa informacji, D&L Technology, 2011-2012, doświadczenie
+Specjalista ds sprzedaży, Robobat Polska Sp zo.o., 2012-2014, doświadczenie
+Managing Director Key account manager, K&K Solution, 2014-2016, doświadczenie
+Analityk, Zenitax, 2016-2017, doświadczenie
+Administrator IT, MK Trade, 2018-2018, doświadczenie
+Python developer, Codecool, 2018-2018, doświadczenie
+Abc, Test, 2018-2020, test
