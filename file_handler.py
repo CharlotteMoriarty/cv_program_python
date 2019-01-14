@@ -12,3 +12,4 @@ def import_cv(filename="cv.txt"):
     except FileNotFoundError:
         print("Nie znaleziono pliku! ")
 
+print(import_cv())

@@ -1,13 +1,13 @@
 import display
 import os
-import file_handler
 import inputs
+import file_handler
 
 
 def main():
     os.system("clear")
     display.logo_print()
-    # tu bedzie jeszcze inputs import
+    inputs.menu()
 
 
 if __name__ == "__main__":

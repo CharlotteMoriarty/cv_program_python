@@ -24,10 +24,10 @@ def menu():
             os.system("clear")
             display.logo_print()
             cv_list = file_handler.import_cv("cv.txt")
-        elif chocie == "2":
+        elif choice == "2":
             os.system("clear")
             display.logo_print()
-            display.display_table_header(cv)
+            display.display_table_header()
             for cv in cv_list:
                 display.display_cv_to_print(cv)
         elif choice == "3":
@@ -46,3 +46,15 @@ def menu():
 
 
             \033[1;m""")
+            sys.exit()
+        else:
+            print("Spróbuj ponownie")
+
+
+#print(menu())
+
+def search_menu(cv_list):
+    pass
+
+def cv_raport():
+    pass
