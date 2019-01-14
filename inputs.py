@@ -2,7 +2,7 @@ import sys
 import os
 import file_handler
 import display
-# plik raporty jeszcze
+import cv_raport
 
 
 def menu():
