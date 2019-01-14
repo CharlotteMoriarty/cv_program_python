@@ -1,6 +1,7 @@
 import display
 import os
 import file_handler
+import inputs
 
 
 def main():
