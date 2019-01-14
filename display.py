@@ -25,4 +25,20 @@ def logo_print():
     
     \033[1;m""")
 
+
 logo_print()
+
+
+def display_table_header():
+    print('+' + '=' * 30 + '+' + '=' * 30 + '+' + '=' * 10 + '+' + '=' * 30 + '+' )
+    print('|{:^30}'.format("Stanowisko") + ('|{:^30}'.format("Firma"))+ ('|{:^10}'.format("Rok")) + ('|{:^30}'.format("Kategoria")) + "|")
+    print('+' + '=' * 30 + '+' + '=' * 30 + '+' + '=' * 10 + '+' + '=' * 30 + '+')
+
+
+display_table_header()
+
+
+def display_album_to_print(cv_print):
+    print('|{:^30}|{:^30}|{:^10}|{:^30}|'.format(cv_print[0], cv_print[1], cv_print[2], cv_print[3]))
+    print('+' + '=' * 30 + '+' + '=' * 30 + '+' + '=' * 10 + '+' + '=' * 30 + '+')
+
