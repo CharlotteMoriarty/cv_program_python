@@ -52,26 +52,43 @@ def menu():
             print("Spróbuj ponownie")
 
 
-#print(menu())
-
 def search_menu(cv_list):
     loop_handling = True
     while loop_handling:
+        # os.system("clear")
         search_choice = input("""
-                    1: Wyszukaj po kategorii
-                    2: Wyszukaj po roku rozpoczęcia
-                    3: Wyszukaj po nazwie stanowiska
-                    4: Wyszukaj po nazwie firmy
-                    5: Wyjście  
-    """)
-    if search_choice == "1":
-        os.system("clear")
-        display.logo_print()
-        genre_search(cv_list)
-    elif search_choice == "2":
-        os.system("clear")
-        display.logo_print()
-        year_search(cv_list)
+                        1: Wyszukaj po kategorii
+                        2: Wyszukaj po roku rozpoczęcia
+                        3: Wyszukaj po nazwie stanowiska
+                        4: Wyszukaj po nazwie firmy
+                        5: Wyjście
+
+
+                        Wpisz wybraną opcję: """)
+
+        if search_choice == '1':
+            os.system("clear")
+            display.logo_print()
+            genre_search(cv_list)
+        elif search_choice == '2':
+            os.system("clear")
+            display.logo_print()
+            year_search(cv_list)
+
+        elif search_choice == '3':
+            os.system("clear")
+            display.logo_print()
+            position_search(cv_list)
+        elif search_choice == '4':
+            os.system("clear")
+            display.logo_print()
+            company_name_search(cv_list)
+        elif search_choice == '5':
+            os.system("clear")
+            display.logo_print()
+            menu()
+        else:
+            print("Opcja od 1 do  5.")
 
 
 def genre_search(input_cv):
@@ -110,3 +127,9 @@ def year_search(input_cv):
             print("Wpisz interesujący Cię rok (yyyy-yyyy):  ")
 
 
+def position_search():
+    pass
+
+
+def company_name_search():
+    pass
