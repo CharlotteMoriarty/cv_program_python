@@ -110,7 +110,7 @@ def position_search(input_cv):
 def company_search(input_cv):
     loop_handling = True
     while loop_handling:
-        ask_about_company = input("test").title()
+        ask_about_company = input("Wpisz interesującą Cię firmę").title()
         company = []
         for cv_data in input_cv:
             company.append(cv_data[1])
@@ -121,7 +121,7 @@ def company_search(input_cv):
                     display.display_cv_to_print(cv)
             loop_handling = False
         else:
-            print("cos")
+            print("Brak firmy na zaimportowanej liście")
 
 
 def genre_search(input_cv):

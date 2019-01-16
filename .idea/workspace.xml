@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c685a9-7b70-4a4c-9552-cfbb9ccbd61f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/inputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv_raport.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv_raport.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv_raport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,9 +81,9 @@
       <list>
         <option value="$PROJECT_DIR$/file_handler.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/cv_raport.py" />
         <option value="$PROJECT_DIR$/inputs.py" />
         <option value="$PROJECT_DIR$/cv.txt" />
+        <option value="$PROJECT_DIR$/cv_raport.py" />
       </list>
     </option>
   </component>
@@ -266,8 +268,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv_raport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
