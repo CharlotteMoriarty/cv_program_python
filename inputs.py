@@ -55,7 +55,6 @@ def menu():
 def search_menu(cv_list):
     loop_handling = True
     while loop_handling:
-        # os.system("clear")
         search_choice = input("""
                         1: Wyszukaj po kategorii
                         2: Wyszukaj po roku rozpoczęcia
@@ -82,13 +81,47 @@ def search_menu(cv_list):
         elif search_choice == '4':
             os.system("clear")
             display.logo_print()
-            company_name_search(cv_list)
+            company_search(cv_list)
         elif search_choice == '5':
             os.system("clear")
             display.logo_print()
             menu()
         else:
             print("Opcja od 1 do  5.")
+
+
+def position_search(input_cv):
+    loop_handling = True
+    while loop_handling:
+        ask_user_about_position_name = input("Wpisz interesujące Cię stanowisko/ pełna nazwa/ : ").title()
+        positions = []
+        for cv_data in input_cv:
+            positions.append(cv_data[0])
+        if ask_user_about_position_name in positions:
+            display.display_table_header()
+            for cv in input_cv:
+                if ask_user_about_position_name in cv[0]:
+                    display.display_cv_to_print(cv)
+            loop_handling = False
+        else:
+            print("Brak stanowiska na zaimportowanej liście.")
+
+
+def company_search(input_cv):
+    loop_handling = True
+    while loop_handling:
+        ask_about_company = input("test").title()
+        company = []
+        for cv_data in input_cv:
+            company.append(cv_data[1])
+        if ask_about_company in company:
+            display.display_table_header()
+            for cv in input_cv:
+                if ask_about_company in cv[1]:
+                    display.display_cv_to_print(cv)
+            loop_handling = False
+        else:
+            print("cos")
 
 
 def genre_search(input_cv):
@@ -127,9 +160,3 @@ def year_search(input_cv):
             print("Wpisz interesujący Cię rok (yyyy-yyyy):  ")
 
 
-def position_search():
-    pass
-
-
-def company_name_search():
-    pass
