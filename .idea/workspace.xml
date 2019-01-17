@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90c685a9-7b70-4a4c-9552-cfbb9ccbd61f" name="Default Changelist" comment="" />
+    <list default="true" id="90c685a9-7b70-4a4c-9552-cfbb9ccbd61f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cv.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-235">
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -55,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -79,9 +81,9 @@
       <list>
         <option value="$PROJECT_DIR$/file_handler.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/cv.txt" />
         <option value="$PROJECT_DIR$/cv_raport.py" />
         <option value="$PROJECT_DIR$/inputs.py" />
+        <option value="$PROJECT_DIR$/cv.txt" />
       </list>
     </option>
   </component>
@@ -126,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.inputs">
+  <component name="RunManager" selected="Python.main">
     <configuration name="file_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cv_program_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.inputs" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.inputs" />
         <item itemvalue="Python.file_handler" />
       </list>
     </recent_temporary>
@@ -213,14 +215,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="398" y="27" width="1071" height="772" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.060252674" />
-      <window_info id="Structure" order="1" sideWeight="0.5045872" side_tool="true" visible="true" weight="0.060252674" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.060252674" />
+      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.060252674" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1985294" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60588235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,23 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cv.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cv_raport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -278,6 +262,23 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>

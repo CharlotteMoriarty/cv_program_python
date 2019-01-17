@@ -1,8 +1,16 @@
-Sklep internetowy,Własna działalność, 2007,doświadczenie
-Help Desk,D&L Technology, 2010,doświadczenie
-Administrator ds bezpieczeństwa informacji,D&L Technology, 2011,doświadczenie
-Specjalista ds sprzedaży,Robobat Polska Sp zo.o., 2012,doświadczenie
-Managing Director Key account manager,K&K Solution, 2014,doświadczenie
-Analityk,Zenitax, 2016,doświadczenie
-Administrator IT,MK Trade, 2018,doświadczenie
-Python developer,Codecool, 2018,doświadczenie
+Sklep internetowy,Własna działalność,2007,doświadczenie
+Help Desk,D&L Technology,2010,doświadczenie
+Administrator ds bezpieczeństwa informacji,D&L Technology,2011,doświadczenie
+Specjalista ds sprzedaży,Robobat Polska Sp zo.o.,2012,doświadczenie
+Managing Director Key account manager,K&K Solution,2014,doświadczenie
+Analityk,Zenitax,2016,doświadczenie
+Administrator IT,MK Trade,2018,doświadczenie
+Python developer,Codecool,2018,doświadczenie
+Fizjoterapia,Krakowska Wyższa Szkoła Promocji Zdrowia,2010,edukacja
+Zarządzanie talentami w branży technologicznej,Akademia Górniczo Hutnicza,2016,edukacja
+Frontend developer bootcamp,Kodilla,2017,kursy
+Python developer,Codecool,2018,kursy
+HTML CSS,Girls Code Fun,2018,kursy
+Java Script od początku,Women in Technology,2018,kursy
+Wprowadzenie do cyberbezpieczeństwa,Cisco,2018,kursy
+Creative Skills for innovation,Google,2018,kursy
