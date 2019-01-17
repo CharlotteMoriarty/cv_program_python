@@ -144,19 +144,16 @@ def genre_search(input_cv):
 def year_search(input_cv):
     loop_handling = True
     while loop_handling:
-        year_range = input("Wpisz interesujący Cię rok (yyyy-yyyy): ")
-        if "-" in year_range:
-            year_range = year_range.split("-")
-            year_range = [int(year) for year in year_range]
+        ask_user_about_year = input("Wpisz interesujący Cię rok:  ")
+        year = []
+        for cv_data in input_cv:
+            year.append(cv_data[2])
+        if ask_user_about_year in year:
             display.display_table_header()
             for cv in input_cv:
-                if int(cv[2]) in range(year_range[0], year_range[1] + 1):
+                if ask_user_about_year in cv[2]:
                     display.display_cv_to_print(cv)
-                else:
-                    print("Brak danych w tym okresie")
-                    break
             loop_handling = False
         else:
-            print("Wpisz interesujący Cię rok (yyyy-yyyy):  ")
-
+            print("Brak daty")
 
