@@ -7,6 +7,7 @@ def display_raport(cv_list):
     os.system("clear")
     print("Raport")
     print("Liczba dostępnych pozycji na liście {}".format(count_genres(cv_list)))
+    #print("Liczba dostępnych kategorii na liście {} ".format(count_category(cv_list)))
 
 
 def count_genres(input_list):
